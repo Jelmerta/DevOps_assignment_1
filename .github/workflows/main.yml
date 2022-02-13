@@ -39,4 +39,4 @@ jobs:
 
     - name: Push image to docker hub Container Registry
       run: |
-        docker push $REPO_NAME/$IMAGE_NAME
+        docker push ${{ secrets.REGISTRY_USERNAME }}/$REPO_NAME

@@ -5,7 +5,6 @@ from swagger_server.service.student_service import *
 from swagger_server.models.student import Student  # noqa: E501
 from swagger_server import util
 
-# TODO When adding, student id is not really required field... How do we make field optional just creation?
 def add_student(body=None): # noqa: E501
     """Add a new student
     Adds an item to the system # noqa: E501

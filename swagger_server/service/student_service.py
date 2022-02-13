@@ -22,6 +22,7 @@ def add(student=None):
     if res:
         return 'already exists', 409
 
+    # TODO Default empty list subjects?
     doc_id = student_db.insert(student.to_dict())
     student.student_id = doc_id
     return student.student_id

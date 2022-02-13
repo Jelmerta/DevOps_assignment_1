@@ -95,7 +95,7 @@ components:
     Student:
       required:
       - first_name
-      - gradeRecords
+#      - gradeRecords Not required as input
       - last_name
 #      - student_id Not required as input
       type: object
